@@ -1,0 +1,117 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 18px;
+    color: #000;
+}
+
+/* Контент */
+
+.header {
+    background-color: peachpuff;
+}
+
+.header__link {
+    font-size: 20px;
+    color: yellowgreen;
+}
+
+.main {
+    background-color: pink;
+}
+
+.main__title {
+    font-size: 38px;
+    font-weight: bold;
+    color: blue;
+}
+
+.subtitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: green;
+}
+
+p {
+    color: darkblue;
+}
+
+div p, 
+.text-link {
+    color: brown;
+}
+
+ol li,
+ol a {
+    color: yellowgreen;
+}
+
+li.red-text {
+    color: red;
+}
+
+li span {
+    background-color: yellow;
+}
+
+.text {
+    color:yellow;
+}
+
+.red-text {
+    color: red;
+}
+
+.footer {
+    background-color: peru;
+}
+
+footer a {
+    color: black;
+}
+
+#top {
+    font-weight: bold;
+    color: yellow;
+}
+
